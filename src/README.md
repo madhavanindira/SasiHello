@@ -1,2 +1,0 @@
-# SasiHello
-Hello plugin description
