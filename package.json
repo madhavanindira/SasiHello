@@ -1,1 +1,24 @@
 
+{
+  "name": "SasiHello",
+  "version": "1.0.2-dev",
+  "description": "SasiHello",
+  "cordova": {
+    "id": "SasiHello",
+    "platforms": [
+      "wp8"
+      ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhavanindira/SasiHello"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-wp8"
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
