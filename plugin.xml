@@ -35,7 +35,6 @@
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
 
-  <asset src="www/hello.js" target="www/hello.js"/>
 
    <js-module src="www/hello.js" name="hello">
         <clobbers target="hello" />
