@@ -4,7 +4,7 @@ using WPCordovaClassLib.Cordova;
 using WPCordovaClassLib.Cordova.Commands;
 using WPCordovaClassLib.Cordova.JSON;
 
-namespace Cordova.Extension.Commands
+namespace WPCordovaClassLib.Cordova.Commands
 {
     public class Hello : BaseCommand
     {
