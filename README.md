@@ -11,7 +11,7 @@ Although the object is in the global scope, it is not available until after the 
         alert("Error calling SasiHello Plugin");
     }
 
-    hello.greet("World", success, failure);
+    hello.greet("World !", success, failure);
 
 ## Installation
 
