@@ -19,7 +19,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
    
-    id="SasiHello"
+    id="cordova-plugin-SasiHello"
     version="1.0.2-dev">
     <name>SasiHello</name>
     <description>SasiHello</description>
