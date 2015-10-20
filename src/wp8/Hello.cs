@@ -18,14 +18,6 @@ namespace WPCordovaClassLib.Cordova.Commands
             DispatchCommandResult(result);
         }
         
-        public void check(string args)
-        {
-            string name = JsonHelper.Deserialize<string[]>(args)[0];
-            string message = "check " + name;
-            PluginResult result = new PluginResult(PluginResult.Status.OK, message);
-            DispatchCommandResult(result);
-        }
-        
         public async void folder(string path)
         {
             string name = JsonHelper.Deserialize<string[]>(path)[0];
