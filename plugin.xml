@@ -17,10 +17,13 @@
   under the License.
 -->
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-   
-    id="SasiHello"
-    version="1.0.2-dev">
+<plugin 
+
+   <!-- xmlns="http://apache.org/cordova/ns/plugins/1.0" -->
+     xmlns="http://www.phonegap.com/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    id="com.phonegap.plugins.sasihello"
+    version="1.0.2">
     <name>SasiHello</name>
     <description>SasiHello</description>
     <license>Apache 2.0</license>
@@ -38,6 +41,7 @@
 
    <js-module src="www/hello.js" name="hello">
         <clobbers target="hello" />
+        
     </js-module>
 
  
